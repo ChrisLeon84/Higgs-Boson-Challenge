@@ -17,7 +17,7 @@ My approach was:
 * Hyperparameter tuning
 
 I was able to see gradual improvement, and got the best results with an ensemble of 5 machine learning methods with majority voting. 
-The hyperparameter tuning was definitely the most computationally expensive and time-consuming part of the process. Traning could take a while too.
+The hyperparameter tuning was definitely the most computationally expensive and time-consuming part of the process. Training could take a while too.
 
 Later, after I presenting to the class, I read the forum for tips. Took suggestions for features I hadn't considered and saw that the
 XGBoost library was recommendeded. Using this there was drastic improvement, with my best submission in the top 11%. 
