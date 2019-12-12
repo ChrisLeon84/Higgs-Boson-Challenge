@@ -7,7 +7,7 @@ https://www.kaggle.com/c/higgs-boson
 The competition was closed when I tried, but subsmissions were still possible. This was done for a statistics course in the Spring of 2018. To avoid cheating, I did not read 
 the forum at the Kaggle page (allowed in the competition, although I considered it cheating for the class).
 
-I was new to machine learning then, so at beginning I just used the scikit learn library. 
+I was new to machine learning then, so at the beginning I just used the scikit-learn library. 
 
 My approach was:
 * Use the simplest methods first, set it as baseline. If I can't don't better than this, something is wrong.
@@ -17,7 +17,7 @@ My approach was:
 * Hyperparameter tuning
 
 I was able to see gradual improvement, and got the best results with an ensemble of 5 machine learning methods with majority voting. 
-The hyperparameter tuning was definitely the most computationally expensive and time-consuming part of the process. Training could take a while too.
+The hyperparameter tuning was definitely the most computationally expensive and time-consuming part of the process. Training of the individual algorithms could take a while too.
 
 Later, after I presenting to the class, I read the forum for tips. Took suggestions for features I hadn't considered and saw that the
-XGBoost library was recommendeded. Using this there was drastic improvement, with my best submission in the top 11%. 
+XGBoost library was being recommendeded. Using this, there was drastic improvement with my best submission ending in the top 11%. 
