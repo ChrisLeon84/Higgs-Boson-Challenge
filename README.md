@@ -20,4 +20,4 @@ I was able to see gradual improvement, and got the best results with an ensemble
 The hyperparameter tuning was definitely the most computationally expensive and time-consuming part of the process. Training of the individual algorithms could take a while too.
 
 Later, after I presenting to the class, I read the forum for tips. Took suggestions for features I hadn't considered and saw that the
-XGBoost library was being recommendeded. Using this, there was drastic improvement with my best submission ending in the top 11%. 
+XGBoost library was being recommendeded. Using this, there was drastic improvement with my best submission ending in the top 13%. 
