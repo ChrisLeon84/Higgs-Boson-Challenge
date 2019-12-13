@@ -2,18 +2,18 @@
 Kaggle competition to find Higgs boson
 
 ### Goal
-The goal was to be able to create a particle identifier that accurately classifies events as Higgs or background. 
+Create a machine learning particle identifier that accurately classifies events as Higgs or background. 
 
 ### Background
-The reaction sought was H to tau/anti-tau (which subseuently decays to leptons + hadrons + neutrinos). The specific metric used was called approximate median significance (AMS) and comes from assuming a Poisson distribution, getting a p value and turning the p-value into number of sigma for a Gaussian (e.g, 1.96 for p=0.05). There were 30 features given, some raw quantities and some 'derived'. Most were kinematic variables.    
+The reaction sought was H to tau/anti-tau, which subseuently decays to leptons + hadrons + neutrinos. The specific metric used was the approximate median significance (AMS) and comes from assuming a Poisson distribution, getting a p-value and turning the p-value into number of sigma for a Gaussian (e.g, 1.96 for p=0.05). There were 30 features given, some raw quantities and some 'derived'. Most were kinematic variables.    
 
-The data given came from simulation. The training data consisted of 250,000 events, with information about whether the event was 
+The data given came from Monte Carlo simulations. The training data consisted of 250,000 events, with information about whether the event was 
 Higgs or background. The testing data consisted of 550,000 events and only disclosed features. The task was too classify the testing data to maximize AMS.
 
 Full details can be found on Kaggle: https://www.kaggle.com/c/higgs-boson
 
 ### Challenges
-* Higgs mass similiar to Z boson (91 vs 125 GeV)
+* The Higgs mass similiar to the Z boson (91 vs 125 GeV)
 * Neutrinos not measured (no data from them) 
 * Many missing values from existing features
 
