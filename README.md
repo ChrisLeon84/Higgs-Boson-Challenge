@@ -28,7 +28,7 @@ My approach was:
 * Test different algorithms and features
 * Hyperparameter tuning
 
-I was able to see gradual improvement, and got the best results with an ensemble of 5 machine learning algorithms (neural network, gradient boosted decision trees, random forest, KNN, SVMs) with majority voting. 
+I was able to see gradual improvement, and got the best results with an ensemble of 4 machine learning algorithms (neural network, gradient boosted decision trees, random forest, linear regression) with voting. 
 The hyperparameter tuning was definitely the most computationally expensive and time-consuming part of the process. Training of the individual algorithms could take a while too.
 
 Later, after I presenting to the class, I read the forum for tips. Took suggestions for features I hadn't considered and saw that the
