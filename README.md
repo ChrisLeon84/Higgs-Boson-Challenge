@@ -1,5 +1,5 @@
 # Higgs-Boson-Challenge
-Kaggle competition to find Higgs boson
+Kaggle competition to find Higgs boson using machine learning.
 
 ### Goal
 Create a machine learning particle identifier that accurately classifies events as Higgs or background. 
